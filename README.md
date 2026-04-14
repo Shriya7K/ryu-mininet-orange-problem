@@ -46,6 +46,15 @@ in the mininet cli, view the flow table of the switch to confirm rules were inst
 mininet> sh ovs-ofctl dump-flows s1
 
 ##expected output and proof of execution
+![Ping test and flow table](SS1.jpeg)
+
+![Pingall test](SS2.jpeg)
+
+![OpenFlow dump-flows](SS3.jpeg)
+
+![iPerf bandwidth test](SS4.jpeg)
+
+![Learning switch summary](SS5.jpeg)
 
 functional correctness: running the pingall command results in 0% dropped packets (12/12 received), proving the learning switch correctly forwards traffic.
 
